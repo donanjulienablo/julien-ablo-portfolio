@@ -14,37 +14,3 @@ button,input,select{font:inherit}select:focus-visible{outline:3px solid var(--gr
 .cv-toolbar{display:flex;align-items:center;justify-content:space-between;gap:25px;margin-bottom:24px}.cv-toolbar>p{font-size:14px;color:var(--muted)}.cv-toolbar .actions{margin:0}.cv-preview{width:100%;height:920px;border:1px solid var(--line);border-radius:9px;background:var(--soft);display:block}.cv-fallback{padding:50px;text-align:center}.cv-fallback p{margin:20px auto;color:var(--muted)}.cv-mobile-note{display:none}
 @media(max-width:980px){.menu-button{display:block}.nav{min-height:75px;flex-wrap:wrap}.nav-links{display:none;width:100%;padding:0 0 20px;gap:5px;flex-direction:column;align-items:stretch;font-size:16px}.nav-links.open{display:flex}.nav-links a{padding:8px 0}.nav-links a[aria-current=page]{box-shadow:none;font-weight:700}.about-layout{gap:35px}.about-copy h2{font-size:30px}.education-copy{padding:26px}.education-copy h2{font-size:24px}.school-placeholder{padding:25px}.cv-toolbar{flex-wrap:wrap}.cv-preview{height:780px}}
 @media(max-width:700px){.about-layout,.education-card{grid-template-columns:1fr}.about-portrait{max-width:330px}.about-layout{gap:30px}.education-card .school-photo{height:auto;aspect-ratio:3/2}.education-card:nth-child(2) .school-photo{aspect-ratio:20/9}.education-card figcaption{font-size:12px}.education-copy{padding:26px}.education-copy h2{font-size:25px}.school-placeholder{min-height:250px;padding:30px}.skill-card{padding:25px}.skill-card h2{font-size:24px}.cv-preview{display:none}.cv-mobile-note{display:block;border:1px solid var(--line);background:var(--soft);padding:25px;border-radius:9px}.cv-mobile-note p{margin-bottom:15px;color:var(--muted)}.search-row{display:flex}.search-row input{max-width:none;width:100%;flex-basis:100%;min-width:0}.domain-control{width:100%}.domain-control select{flex:1}.count{margin-top:0}.filters button{font-size:14px}.hero-meta,.domains{font-size:12px}.portrait figcaption{font-size:12px}.footer-links{font-size:14px}}
-
-/* Photographs and presentation material for measured project studies. */
-.detail-hero.study-cover{height:auto;display:block;object-fit:contain;aspect-ratio:1213/684;background:#f8f6f2}
-.study-model{border-left:3px solid var(--lime);padding:3px 0 3px 20px;margin:22px 0}
-.study-model h3{font-size:19px;line-height:1.45;margin:0 0 9px;color:var(--blue)}
-.study-model p{margin:0}
-.study-gallery-section{margin-top:54px}
-.study-gallery-section h2{font-size:27px;letter-spacing:-.8px;margin:0 0 24px}
-.study-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
-.study-gallery figure{margin:0;min-width:0}
-.study-gallery a{display:block;aspect-ratio:4/3;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--soft)}
-.study-gallery img{display:block;width:100%;height:100%;object-fit:contain}
-.study-gallery figcaption{font-size:14px;line-height:1.6;color:var(--muted);padding-top:12px}
-@media(max-width:650px){.study-gallery{grid-template-columns:1fr;gap:25px}.study-gallery-section{margin-top:36px}.study-gallery-section h2{font-size:25px}}
-
-/* Preserve complete application screenshots in project views. */
-.detail-hero.app-capture{height:auto;display:block;object-fit:contain;background:var(--soft)}
-.card-media .app-screen-preview{object-fit:contain;background:var(--soft)}
-
-/* Complete poster views for the communication portfolio. */
-.poster-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
-.poster-card{min-width:0}
-.poster-media{display:block;aspect-ratio:1;overflow:hidden;border-bottom:1px solid var(--line);background:white}
-.poster-media img{width:100%;height:100%;object-fit:contain}
-.poster-card .gallery-button{cursor:zoom-in}
-.poster-card .gallery-button:focus-visible{outline:3px solid var(--green);outline-offset:-3px}
-.poster-card .meta{font-size:10px;line-height:1.7}
-.poster-card h3{font-size:19px;line-height:1.45}
-.poster-card .card-body p{font-size:14px;line-height:1.65}
-.feature-photo.poster-preview{height:auto;max-height:480px;aspect-ratio:1;object-fit:contain}
-.detail-hero.graphic-poster{display:block;width:min(100%,720px);height:auto;object-fit:contain;margin:0 auto;border:1px solid var(--line)}
-dialog .gallery-artwork{display:block;width:auto;height:auto;max-width:100%;max-height:65vh;object-fit:contain;clear:both}
-@media(max-width:960px){.poster-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:620px){.poster-grid{grid-template-columns:1fr;gap:24px}.poster-card .card-body{padding:22px}}
